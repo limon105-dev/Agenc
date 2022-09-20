@@ -1,0 +1,75 @@
+#about {
+    @include pgap(0, 0, 150px, 150px);
+
+    .common-header {
+        h2 {
+            @include fonts($heading_color, 45px, 700, 'Inter');
+            line-height: 47px;
+            @include pgap(0, 150px, 0, 20px);
+        }
+
+        p {
+            @include fonts($para_color, 16px, 400, 'Inter');
+            line-height: 26px;
+            padding-right: 50px;
+        }
+    }
+
+    .about-row {
+        padding-top: 85px;
+
+        .about-item {
+            overflow-x: hidden;
+            .about-text {
+                padding-top: 20px;
+
+                h3 {
+                    @include fonts($heading_color, 25px, 700, 'Inter');
+                    padding-bottom: 10px
+                }
+
+                p {
+                    @include fonts($para_color, 16px, 400, 'Inter');
+                    line-height: 26px;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+
+    .about-right-row {
+        @include mgap(0, 0, 70px, 30px);
+
+        .about-img-top {
+            @include div-body(350px, 350px, transparent);
+            position: relative;
+
+            img {
+                border-radius: 30px;
+            }
+
+            .about-img-after {
+                @include div-body(188px, 188px, $primary_bg);
+                border-top-right-radius: 100px;
+                position: absolute;
+                right: -216px;
+                bottom: 0;
+            }
+        }
+    }
+
+    .about-img-bottom {
+        @include div-body(260px, 235px, #4A92FF);
+        border-bottom-left-radius: 100px;
+        position: relative;
+
+        .about-img-before {
+            @include div-body(205px, 205px, transparent);
+            border-bottom-right-radius: 100px;
+            overflow: hidden;
+            position: absolute;
+            right: -240px;
+            top: 0;
+        }
+    }
+}

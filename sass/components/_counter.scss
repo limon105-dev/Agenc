@@ -1,0 +1,53 @@
+#counter {
+    .counter-wrapper {
+        @include pgap(50px, 50px, 75px, 75px);
+        background-color: #F8F6FE;
+        border-radius: 20px;
+
+        .counter-item {
+            a {
+                @include fonts($primary_bg, 25px, 500, 'Inter');
+
+                &:last-child {
+                    @include fonts($primary_bg, 20px, 500, 'Inter');
+                    border-bottom: 1px solid $primary_bg;
+                }
+            }
+
+            h3 {
+                @include fonts($heading_color, 35px, 600, 'Inter');
+                line-height: 40px;
+                margin-top: 15px;
+            }
+
+            h2 {
+                @include fonts($heading_color, 50px, 700, 'Inter');
+            }
+
+            p {
+                @include fonts($para_color, 20px, 500, 'Inter');
+                @include pgap(0, 0, 20px, 20px);
+            }
+
+            .counter-img {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                .counter {
+                    margin-left: -13px;
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .counter-icon {
+                i {
+                    color: #FFAC4A;
+                }
+            }
+        }
+    }
+}

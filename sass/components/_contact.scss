@@ -1,0 +1,84 @@
+#contact {
+    @include pgap(0, 0, 150px, 150px);
+    background-color: $secondary_bg;
+
+    .common-header {
+        h2 {
+            @include fonts($heading_color, 45px, 700, 'Inter');
+            line-height: 55px;
+            @include pgap(0, 75px, 0, 20px);
+        }
+
+        p {
+            @include fonts($para_color, 16px, 400, 'Inter');
+            line-height: 26px;
+            padding-right: 15px;
+        }
+
+        .p-btm {
+            margin-top: 10px;
+        }
+    }
+
+    .from-wrapper {
+        background-color: #fff;
+        border-radius: 20px;
+
+        .from-body {
+            @include pgap(43px, 43px, 61px, 61px);
+
+            .from-header {
+                h3 {
+                    @include fonts($heading_color, 30px, 700, 'Inter');
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+            }
+
+            .from-item {
+                position: relative;
+                @include div-body(100%, 100px, transparent);
+                margin-bottom: 20px;
+
+                label {
+                    // position: absolute;
+                    // left: 0;
+                    // top: -31px;
+                    @include fonts($heading_color, 16px, 600, 'Inter');
+                    line-height: 26px;
+                    margin-bottom: 10px
+                }
+
+                input {
+                    @include fonts($para_color, 20px, 500, 'Inter');
+                    @include div-body(100%, 64px, transparent);
+                    @include pgap(23px, 0, 0, 0);
+                    border: 1px solid #E8E8E8;
+                    border-radius: 10px;
+                }
+
+                input::placeholder {
+                    @include fonts(#D0D0D0, 16px, 700, 'Inter');
+                    line-height: 26px;
+                }
+
+                input:focus-visible {
+                    outline: none;
+                }
+
+            }
+
+            .from-btn {
+                margin-top: 30px;
+
+                button {
+                    background-color: $primary_bg;
+                    @include div-body(100%, 64px, transparent);
+                    @include fonts(#fff, 20px, 600, 'Inter');
+                    border-radius: 10px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

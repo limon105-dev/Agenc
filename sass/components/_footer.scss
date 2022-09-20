@@ -1,0 +1,50 @@
+//----------footer part start----------//
+#footer {
+    @include pgap(0, 0, 150px, 50px);
+
+    .footer-item {
+        .footer-text {
+            p {
+                @include fonts($para_color, 16px, 400, 'Inter');
+                line-height: 26px;
+                @include pgap(0, 50px, 30px, 0);
+            }
+        }
+
+        .footer-header {
+            margin-bottom: 40px;
+
+            h4 {
+                @include fonts($heading_color, 20px, 600, 'Inter');
+            }
+        }
+
+        .footer-list {
+            ul {
+                li {
+                    a {
+                        @include fonts($para_color, 16px, 400, 'Inter');
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//----------footer part end----------//
+
+//----------copyright part start----------//
+#copyright {
+    .copyright-text {
+        @include pgap(0, 0, 40px, 40px);
+        text-align: center;
+        border-top: 1px solid #E8E8E8;
+
+        p {
+            @include fonts(#D0D0D0, 16px, 400, 'Inter');
+        }
+    }
+}
+
+//----------copyright part end----------//

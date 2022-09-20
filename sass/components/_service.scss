@@ -1,0 +1,49 @@
+#service {
+    @include pgap(0, 0, 150px, 150px);
+
+    .common-header {
+        h2 {
+            @include fonts($heading_color, 45px, 700, 'Inter');
+            padding-bottom: 20px
+        }
+
+        p {
+            @include fonts($para_color, 16px, 400, 'Inter');
+            line-height: 26px;
+        }
+    }
+
+    .service-row {
+        padding-top: 50px;
+
+        .service-item {
+            @include pgap(0, 0, 45px, 45px);
+            border-radius: 20px;
+
+            &:hover {
+                box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.06);
+            }
+
+            .service-text {
+                padding-top: 40px;
+
+                h3 {
+                    @include fonts($heading_color, 25px, 700, 'Inter');
+                    padding-bottom: 20px
+                }
+
+                p {
+                    @include fonts($para_color, 16px, 400, 'Inter');
+                    line-height: 26px;
+                    @include pgap(45px, 45px, 0, 0);
+                }
+            }
+
+            transition: all linear .3s;
+            -webkit-transition: all linear .3s;
+            -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+            -o-transition: all linear .3s;
+        }
+    }
+}

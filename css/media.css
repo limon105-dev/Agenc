@@ -1,0 +1,1277 @@
+@media(min-width: 1200px) and (max-width: 1399px) {
+
+    /* =========================================
+                banner part start
+    ==========================================*/
+    #banner .banner-content h1 {
+        font-size: 67px;
+    }
+
+    #banner .banner-content p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    #banner .banner-left-top {
+        width: 100px;
+        height: 100px;
+    }
+
+    #banner .banner-right-top .banner-right-left {
+        right: -67px;
+    }
+
+    #banner .banner-left-mid {
+        width: 213px;
+        height: 197px;
+        border-top-left-radius: 80px;
+    }
+
+    #banner .banner-left-bottom {
+        width: 180px;
+        height: 180px;
+        border-bottom-left-radius: 80px;
+    }
+
+    #banner .banner-right-bottom {
+        width: 308px;
+        height: 308px;
+        border-radius: 20px;
+    }
+
+    /* =========================================
+                banner part end
+    ==========================================*/
+
+    /* =========================================
+                counter part start
+    ==========================================*/
+    #counter .counter-wrapper .counter-item h3 {
+        font-size: 32px;
+    }
+
+    #counter .counter-wrapper .counter-item p {
+        font-size: 18px;
+    }
+
+    /* =========================================
+                counter part end
+    ==========================================*/
+
+    /* =========================================
+                service part start
+    ==========================================*/
+    #service .service-row .service-item .service-text p {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* =========================================
+                service part end
+    ==========================================*/
+
+    /* =========================================
+                portfolio part start
+    ==========================================*/
+    #portfolio {
+        padding-bottom: 150px;
+    }
+
+    /* =========================================
+                portfolio part end
+    ==========================================*/
+
+    /* =========================================
+                about part start
+    ==========================================*/
+    #about .common-header h2 {
+        padding-right: 0;
+    }
+
+    #about .common-header p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    #about .about-row .about-item .about-text p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    /* =========================================
+                about part end
+    ==========================================*/
+
+    /* =========================================
+                review part start
+    ==========================================*/
+    #review .review-slider .review-inner .review-text p {
+        font-size: 14px;
+    }
+
+    /* =========================================
+                review part end
+    ==========================================*/
+
+    /* =========================================
+                contact part start
+    ==========================================*/
+    #contact .common-header h2 {
+        padding-right: 0;
+    }
+
+    #contact .common-header p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    /* =========================================
+                contact part end
+    ==========================================*/
+
+    /* =========================================
+                footer part start
+    ==========================================*/
+    #footer .footer-item .footer-text p {
+        padding-right: 0;
+    }
+
+    /* =========================================
+                footer part end
+    ==========================================*/
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /* =========================================
+                navbar part start
+    ==========================================*/
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* =========================================
+                navbar part end
+    ==========================================*/
+
+    /* =========================================
+            banner part start
+    ==========================================*/
+    #banner .banner-content h1 {
+        font-size: 56px;
+    }
+
+    #banner .banner-content p {
+        font-size: 13px;
+        font-weight: 400;
+        padding-right: 0;
+    }
+
+    #banner .banner-right-top .banner-right-left {
+        right: -5px;
+        width: 70px;
+        height: 70px;
+        border-bottom-right-radius: 55px;
+    }
+
+    #banner .banner-left-top {
+        width: 100px;
+        height: 100px;
+        margin-top: 77px;
+    }
+
+    #banner .banner-left-mid {
+        width: 175px;
+        height: 175px;
+        border-top-left-radius: 68px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+
+    #banner .banner-left-bottom {
+        width: 140px;
+        height: 140px;
+        border-bottom-left-radius: 68px;
+    }
+
+    #banner .banner-right-top picture img {
+        width: 175px;
+        height: 175px;
+        border-top-right-radius: 68px;
+    }
+
+    #banner .banner-right-bottom {
+        width: 255px;
+        height: 255px;
+        border-radius: 15px;
+    }
+
+    /* =========================================
+            banner part end
+    ==========================================*/
+
+    /* =========================================
+                counter part start
+    ==========================================*/
+    #counter .counter-wrapper .counter-item h3 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    #counter .counter-wrapper .counter-item p {
+        font-size: 14px;
+    }
+
+    /* =========================================
+                counter part end
+    ==========================================*/
+
+    /* =========================================
+                service part start
+    ==========================================*/
+    #service .common-header h2 {
+        font-size: 41px;
+    }
+
+    #service .common-header p {
+        font-size: 14px;
+    }
+
+    #service .service-row .service-item {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #service .service-row .service-item .service-text p {
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* =========================================
+                service part end
+    ==========================================*/
+
+    /* =========================================
+                portfolio part start
+    ==========================================*/
+    #portfolio {
+        padding-bottom: 150px;
+    }
+
+    #portfolio .common-header p {
+        font-size: 14px;
+    }
+
+    #review .review-slider .review-inner .review-text p {
+        font-size: 14px;
+    }
+
+    #review .review-slider .review-inner .review-person .person-text h4 {
+        font-size: 15px;
+    }
+
+    #review .review-slider .review-inner .review-person .person-text p {
+        font-size: 14px;
+    }
+
+    /* =========================================
+                portfolio part end
+    ==========================================*/
+
+    /* =========================================
+                about part start
+    ==========================================*/
+
+    #about .common-header h2 {
+        font-size: 41px;
+        padding-right: 0;
+        ;
+    }
+
+    #about .common-header p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    #about .about-row .about-item .about-text p {
+        font-size: 13px;
+    }
+
+    #about .about-right-row .about-img-top {
+        width: 275px;
+        height: 275px;
+    }
+
+    #about .about-right-row .about-img-top img {
+        border-radius: 20px;
+    }
+
+    #about .about-img-bottom {
+        width: 195px;
+        height: 195px;
+        border-bottom-left-radius: 75px;
+    }
+
+    #about .about-img-bottom .about-img-before {
+        width: 170px;
+        height: 170px;
+        border-bottom-right-radius: 60px;
+        right: -195px;
+        top: 0;
+    }
+
+    /* =========================================
+                about part end
+    ==========================================*/
+
+    /* =========================================
+                review part start
+    ==========================================*/
+    #review .common-header h2 {
+        font-size: 44px;
+    }
+
+    #review .review-slider .review-inner .review-text p {
+        font-size: 13px;
+    }
+
+    /* =========================================
+                review part end
+    ==========================================*/
+
+    /* =========================================
+                contact part start
+    ==========================================*/
+    #contact .common-header h2 {
+        font-size: 45px;
+        padding-right: 0;
+    }
+
+    #contact .common-header p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    #contact .from-wrapper .from-body {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    /* =========================================
+                contact part end
+    ==========================================*/
+
+    /* =========================================
+                footer part start
+    ==========================================*/
+    #footer .footer-item .footer-text p {
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    #footer .footer-item .footer-list ul li a {
+        font-size: 13px;
+    }
+
+    /* =========================================
+                footer part end
+    ==========================================*/
+}
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    /* =========================================
+                navbar part start
+    ==========================================*/
+    .navbar {
+        padding-top: 10px;
+    }
+
+    .navbar-toggler {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    /* =========================================
+                navbar part end
+    ==========================================*/
+
+    /* =========================================
+            banner part start
+    ==========================================*/
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 41px;
+    }
+
+    #banner .banner-content p {
+        font-size: 16px;
+    }
+
+    #banner .banner-left-top {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    #banner .banner-left-mid {
+        width: 100px;
+        height: 100px;
+        border-top-left-radius: 50px;
+        margin-top: 13px;
+        margin-bottom: 17px;
+        overflow: hidden;
+    }
+
+    #banner .banner-left-bottom {
+        width: 90px;
+        height: 90px;
+        border-bottom-left-radius: 50px;
+    }
+
+    #banner .banner-right-top picture img {
+        width: 100px !important;
+        height: 100px;
+        border-top-right-radius: 50px;
+        overflow: hidden;
+    }
+
+    #banner .banner-right-top .banner-right-left {
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    #banner .banner-right-bottom {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 17px;
+    }
+
+    /* =========================================
+            banner part end
+    ==========================================*/
+
+    /* =========================================
+                counter part start
+    ==========================================*/
+    #counter .counter-wrapper .counter-item h3 {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    #counter .counter-wrapper .counter-item p {
+        font-size: 19px;
+    }
+
+    /* =========================================
+                counter part end
+    ==========================================*/
+
+    /* =========================================
+                service part start
+    ==========================================*/
+    #service {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    /* =========================================
+                service part end
+    ==========================================*/
+
+    /* =========================================
+                portfolio part start
+    ==========================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    /* =========================================
+                portfolio part end
+    ==========================================*/
+
+    /* =========================================
+                about part start
+    ==========================================*/
+    #about {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #about .common-header h2 {
+        font-size: 41px;
+        padding-right: 0;
+        line-height: 38px;
+        padding-bottom: 10px;
+    }
+
+    #about .common-header p {
+        font-size: 14px;
+        padding-right: 0;
+        line-height: 22px;
+    }
+
+    #about .about-row .about-item .about-text {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #about .about-row .about-item .about-text h3 {
+        font-size: 20px;
+    }
+
+    #about .about-row .about-item .about-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+
+    #about .about-right-row .about-img-top {
+        width: 175px;
+        height: 175px;
+    }
+
+    #about .about-img-bottom {
+        width: 130px;
+        height: 130px;
+        border-bottom-left-radius: 50px;
+    }
+
+    #about .about-right-row .about-img-top .about-img-after {
+        width: 94px;
+        height: 94px;
+        border-top-right-radius: 50px;
+        right: -110px;
+    }
+
+    #about .about-img-bottom .about-img-before {
+        width: 120px;
+        height: 120px;
+        border-bottom-right-radius: 60px;
+        right: -138px;
+    }
+
+    #about .about-right-row {
+        margin-bottom: 15px;
+    }
+
+    #about .about-row {
+        padding-top: 30px;
+    }
+
+    /* =========================================
+                about part end
+    ==========================================*/
+
+    /* =========================================
+                review part start
+    ==========================================*/
+    #review {
+        padding-bottom: 40px;
+    }
+
+    #review .review-slider {
+        padding-top: 20px;
+    }
+
+    #review .review-slider .review-inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #review .review-slider .review-inner .review-person {
+        justify-content: center;
+    }
+
+    #review .review-slider .review-inner .review-person .person-text h4 {
+        font-size: 19px;
+    }
+
+    /* =========================================
+                review part end
+    ==========================================*/
+
+    /* =========================================
+                contact part start
+    ==========================================*/
+    #contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #contact .common-header h2 {
+        font-size: 35px;
+        line-height: 40px;
+        padding-right: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    #contact .common-header p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    #contact .common-header .p-btm {
+        margin-top: 5px;
+    }
+
+    #contact .from-wrapper .from-body {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #contact .from-wrapper .from-body .from-header h3 {
+        margin-bottom: 25px;
+    }
+
+    /* =========================================
+                contact part end
+    ==========================================*/
+
+    /* =========================================
+                footer part start
+    ==========================================*/
+    #footer {
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-text p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-header {
+        margin-bottom: 10px;
+    }
+
+    /* =========================================
+                footer part end
+    ==========================================*/
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+
+    /* =========================================
+                navbar part start
+    ==========================================*/
+    .navbar {
+        padding-top: 10px;
+    }
+
+    .navbar-toggler {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    /* =========================================
+                navbar part end
+    ==========================================*/
+
+    /* =========================================
+            banner part start
+    ==========================================*/
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #banner .banner-content p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #banner .banner-content button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #banner .banner-left-top {
+        display: none;
+    }
+
+    #banner .banner-left-mid {
+        width: auto;
+        height: auto;
+        border-top-left-radius: 0;
+    }
+
+    #banner .banner-left-bottom {
+        display: none;
+    }
+
+    #banner .banner-right-top picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #banner .banner-right-top .banner-right-left {
+        display: none;
+    }
+
+    #banner .banner-right-bottom {
+        width: auto;
+        height: auto;
+    }
+
+    /* =========================================
+            banner part end
+    ==========================================*/
+
+    /* =========================================
+                counter part start
+    ==========================================*/
+    #counter .counter-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .counter-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #counter .counter-wrapper .counter-item p {
+        font-size: 16px;
+    }
+
+    #counter .counter-wrapper .counter-item .counter-img {
+        justify-content: center;
+    }
+
+    /* =========================================
+                counter part end
+    ==========================================*/
+
+    /* =========================================
+                service part start
+    ==========================================*/
+    #service {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #service .common-header h2 {
+        font-size: 40px;
+    }
+
+    #service .service-row .service-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #service .service-row .service-item .service-text p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* =========================================
+                service part end
+    ==========================================*/
+
+    /* =========================================
+                portfolio part start
+    ==========================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 90px;
+    }
+
+    #portfolio .common-header h2 {
+        font-size: 40px;
+    }
+
+    .portfoilo-item {
+        margin-bottom: 30px;
+    }
+
+    /* =========================================
+                portfolio part end
+    ==========================================*/
+
+    /* =========================================
+                about part start
+    ==========================================*/
+    #about {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #about .about-row {
+        padding-top: 40px;
+    }
+
+    #about .common-header h2 {
+        font-size: 40px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #about .common-header p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #about .about-row .about-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #about .about-row .about-item .about-text p {
+        padding-right: 0;
+    }
+
+    #about .about-right-row .about-img-top {
+        width: auto;
+        height: auto;
+    }
+
+    #about .about-right-row .about-img-top .about-img-after {
+        display: none;
+    }
+
+    #about .about-img-bottom {
+        display: none;
+    }
+
+    /* =========================================
+                about part end
+    ==========================================*/
+
+    /* =========================================
+                review part start
+    ==========================================*/
+    #review {
+        padding-bottom: 45px;
+    }
+
+    #review .review-slider {
+        padding-top: 30px;
+    }
+
+    #review .common-header h2 {
+        font-size: 40px;
+    }
+
+    #review .review-slider .review-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #review .review-slider .review-inner .review-person {
+        justify-content: center;
+    }
+
+    /* =========================================
+                review part end
+    ==========================================*/
+
+    /* =========================================
+                contact part start
+    ==========================================*/
+    #contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #contact .common-header h2 {
+        font-size: 40px;
+        line-height: 38px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    #contact .common-header p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    #contact .from-wrapper {
+        margin-top: 40px;
+    }
+
+    /* =========================================
+                contact part end
+    ==========================================*/
+
+    /* =========================================
+                footer part start
+    ==========================================*/
+    #footer {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-text p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-header {
+        margin-bottom: 10px;
+    }
+
+    #footer .footer-item .footer-header h4 {
+        font-size: 18px;
+    }
+
+    /* =========================================
+                footer part end
+    ==========================================*/
+}
+
+@media(max-width: 575px) {
+
+    /* =========================================
+                navbar part start
+    ==========================================*/
+    .navbar {
+        padding-top: 10px;
+    }
+
+    .navbar-toggler {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    /* =========================================
+                navbar part end
+    ==========================================*/
+
+    /* =========================================
+            banner part start
+    ==========================================*/
+    #banner {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #banner .banner-content p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #banner .banner-content button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #banner .banner-left-top {
+        display: none;
+    }
+
+    #banner .banner-left-mid {
+        width: auto;
+        height: auto;
+        border-top-left-radius: 0;
+    }
+
+    #banner .banner-left-bottom {
+        display: none;
+    }
+
+    #banner .banner-right-top picture img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #banner .banner-right-top .banner-right-left {
+        display: none;
+    }
+
+    #banner .banner-right-bottom {
+        width: auto;
+        height: auto;
+    }
+
+    /* =========================================
+            banner part end
+    ==========================================*/
+
+    /* =========================================
+                counter part start
+    ==========================================*/
+    #counter .counter-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .counter-item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #counter .counter-wrapper .counter-item .counter-img {
+        justify-content: center;
+    }
+
+    /* =========================================
+                counter part end
+    ==========================================*/
+
+    /* =========================================
+                service part start
+    ==========================================*/
+    #service {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #service .common-header h2 {
+        font-size: 40px;
+    }
+
+    /* =========================================
+                service part end
+    ==========================================*/
+
+    /* =========================================
+                portfolio part start
+    ==========================================*/
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 90px;
+    }
+
+    #portfolio .common-header h2 {
+        font-size: 40px;
+    }
+
+    .portfoilo-item {
+        margin-bottom: 30px;
+    }
+
+    /* =========================================
+                portfolio part end
+    ==========================================*/
+
+    /* =========================================
+                about part start
+    ==========================================*/
+    #about {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #about .about-row {
+        padding-top: 40px;
+    }
+
+    #about .common-header h2 {
+        font-size: 40px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #about .common-header p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #about .about-row .about-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #about .about-row .about-item .about-text p {
+        padding-right: 0;
+    }
+
+    #about .about-right-row .about-img-top {
+        width: auto;
+        height: auto;
+    }
+
+    #about .about-right-row .about-img-top .about-img-after {
+        display: none;
+    }
+
+    #about .about-img-bottom {
+        display: none;
+    }
+
+    /* =========================================
+                about part end
+    ==========================================*/
+
+    /* =========================================
+                review part start
+    ==========================================*/
+    #review {
+        padding-bottom: 45px;
+    }
+
+    #review .review-slider {
+        padding-top: 30px;
+    }
+
+    #review .common-header h2 {
+        font-size: 40px;
+    }
+
+    #review .review-slider .review-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    #review .review-slider .review-inner .review-person {
+        justify-content: center;
+    }
+
+    /* =========================================
+                review part end
+    ==========================================*/
+
+    /* =========================================
+                contact part start
+    ==========================================*/
+    #contact {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #contact .common-header h2 {
+        font-size: 40px;
+        line-height: 38px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    #contact .common-header p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    #contact .from-wrapper {
+        margin-top: 40px;
+    }
+
+    /* =========================================
+                contact part end
+    ==========================================*/
+
+    /* =========================================
+                footer part start
+    ==========================================*/
+    #footer {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-text p {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-header {
+        margin-bottom: 10px;
+    }
+
+    /* =========================================
+                footer part end
+    ==========================================*/
+}

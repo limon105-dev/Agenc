@@ -1,0 +1,70 @@
+#banner {
+    @include pgap(0, 0px, 80px, 150px);
+
+
+    .banner-content {
+        h1 {
+            @include fonts($heading_color, 75px, 700, 'Inter');
+            line-height: 120%;
+            margin-bottom: 0;
+        }
+
+        p {
+            @include fonts($para_color, 16px, 400, 'Inter');
+            line-height: 26px;
+            @include pgap(0, 50px, 20px, 30px);
+            margin-bottom: 0;
+        }
+
+        button {
+            background-color: $primary_bg;
+            @include pgap(42px, 42px, 15px, 15px);
+            @include fonts(#fff, 20px, 600, 'Inter');
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+
+    .banner-left-top {
+        @include div-body(122px, 122px, #FFC44A);
+        margin-top: 105px;
+    }
+
+    .banner-left-mid {
+        @include div-body(257px, 235px, transparent);
+        border-top-left-radius: 100px;
+        @include mgap(0, 0, 25px, 35px);
+        overflow: hidden;
+    }
+
+    .banner-left-bottom {
+        @include div-body(205px, 205px, $primary_bg);
+        border-bottom-left-radius: 100px;
+    }
+
+    .banner-right-top {
+        position: relative;
+        picture {
+            img {
+                @include div-body(230px, 230px, transparent);
+                border-top-right-radius: 100px;
+            }
+        }
+
+        .banner-right-left {
+            position: absolute;
+            right: -15px;
+            bottom: 0;
+            @include div-body(100px, 100px, #4A92FF);
+            border-bottom-right-radius: 100px;
+        }
+    }
+
+    .banner-right-bottom {
+        @include div-body(375px, 375px, transparent);
+        border-radius: 30px;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+}

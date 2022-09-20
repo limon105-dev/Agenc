@@ -1,0 +1,58 @@
+#review {
+    padding-bottom: 95px;
+
+    .common-header {
+        h2 {
+            @include fonts($heading_color, 45px, 700, 'Inter');
+            padding-bottom: 20px
+        }
+
+        p {
+            @include fonts($para_color, 16px, 400, 'Inter');
+            line-height: 26px;
+        }
+    }
+
+    .review-slider{
+        padding-top: 50px;
+
+        .review-inner {
+            @include pgap(54px, 54px, 58px, 58px);
+
+            .review-text {
+                p {
+                    @include fonts($para_color, 16px, 400, 'Inter');
+                    line-height: 26px;
+                    @include pgap(0, 0, 20px, 20px);
+                }
+
+                .review-icon {
+                    i {
+                        color: #F9BD2C;
+                    }
+                }
+            }
+
+            .review-person {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .person-text {
+                    margin-left: 20px;
+
+                    h4 {
+                        @include fonts(#232323, 20px, 600, 'Inter');
+                        line-height: 120%;
+                    }
+
+                    p {
+                        @include fonts($para_color, 16px, 400, 'Inter');
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
