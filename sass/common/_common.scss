@@ -25,3 +25,7 @@ p {
     line-height: 0.8;
     @include mgap(0, 0, 0, 0);
 }
+
+body {
+    overflow-x: hidden;
+}
